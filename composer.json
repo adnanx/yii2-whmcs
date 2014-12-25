@@ -1,0 +1,86 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Application Template",
+    "keywords": ["yii2", "framework", "advanced", "application template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-imagine": "*",
+        "yiisoft/yii2-jui": "*",
+        "yiisoft/yii2-elasticsearch": "*",
+        "yiisoft/jquery-pjax": "*",
+		
+		"2amigos/yii2-date-time-picker-widget" : "*",
+		"callmez/yii2-file-system": "*",
+		"pheme/yii2-settings": "*",
+		"denisog/yii2-cronjobs": "*",
+		"rmrevin/yii2-fontawesome": "*",
+		"marciocamello/yii2-x-editable": "*",
+		"robregonm/yii2-pdf": "*",
+		"yii2-widgets": "*",
+		"subdee/yii2-soap-server": "*",
+		"mihaildev/yii2-elfinder": "*",
+		"2amigos/yii2-google-maps-library" : "*",
+		"opus-online/yii2-ecom": "*",
+		"rmrevin/yii2-minify-view": "*",
+		"linchpinstudios/yii2-filemanager": "*",
+		"kartik-v/yii2-slider": "*",
+		"dmstr/yii2-adminlte-asset": "*",
+		"gilek/yii2-gtreetable": "*",
+		"Filsh/yii2-calendar": "*",
+		"omnilight/yii2-thumbnails": "*",
+		"demogorgorn/yii2-superfish-menu": "*",
+		"linchpinstudios/yii2-seo": "*",
+		"cics/yii2-testimonials-module": "*",
+		"ien-systems/yii2-tinymce": "*",
+		"bedezign/yii2-desktop": "*",
+		"athos99/plupload": "*",
+		"yiidoc/yii2-jwplayer": "*",
+		"fruppel/yii2-googlecharts" : "*",
+		"sersid/yii2-config": "*",
+		"sjaakp/yii2-timeline": "*",
+		"2amigos/yii2-leaflet-extension" : "*",
+		"skeeran/Yii2-Geo": "*",
+		"prawee/yii2-uploadify": "*",
+		"albertborsos/yii2-lib": "*",
+
+		"richweber/yii2-recaptcha": "dev-master",
+		"pavlinter/yii2-url-manager": "dev-master",
+		"miloschuman/yii2-highcharts-widget": "dev-master",
+		"kartik-v/yii2-grid": "dev-master",
+		"kartik-v/yii2-krajee-base": "dev-master",
+		"kartik-v/yii2-grid": "dev-master",
+		"kartik-v/yii2-builder": "dev-master",
+		"kartik-v/yii2-editable": "dev-master",
+		"perminder-klair/yii2-dropzone": "dev-master",
+		"callmez/yii2-wechat": "dev-master"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
